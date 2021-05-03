@@ -1,0 +1,11 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 30em;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+p {
+
+    line-height: 150%;
+}

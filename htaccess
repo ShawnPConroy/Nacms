@@ -1,0 +1,24 @@
+# Nacms: Convert markdown (or text) to HTML for user
+Action markdown /nacms/.nacms/markdown-handler.php
+AddHandler markdown .md
+
+
+# Nacms: Also convert text files to HTML using the Nocms CSS style
+#
+# Note: If you want the text files to be transferred as raw text you must
+# comment out these lines with a # symbol.
+
+AddHandler markdown .txt
+AddHandler markdown .text
+
+
+# Nacms: Handle directory index
+#
+#  1. Shows common index files instead of a directory listing
+#  2. If none found, adds `index.md` so this will be shown if it exists.
+#  3. If no valid index found, show folder listing with `folder-handler.php`
+#
+# If the script is somewhere other than the folder `.nacms` in the same folders
+# as this file, edit the path to match.
+
+DirectoryIndex first.html index.htm index.html index.php index.md /nacms/.nacms/folder-handler.php

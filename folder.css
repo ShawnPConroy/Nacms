@@ -1,0 +1,30 @@
+
+li {
+    list-style-type: none;
+    background-color: #CFC;
+    padding: 1em;
+    margin: .3em 0;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #555;
+}
+
+body {
+    font-size: 1.3rem;
+    max-width: 45em;
+    margin: .5em auto;
+    font-family: 'Fira Code', monospace;
+}
+
+h1 {
+    text-align: center;
+}
