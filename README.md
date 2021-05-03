@@ -1,5 +1,4 @@
 # Nacms
-========
 
 NACMS (Not A CMS) is two simple scripts that are designed for public or client
 facing files. The first adds a markdown handlers to serve markdown files as
