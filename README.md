@@ -59,13 +59,14 @@ renaming the folder to `.nacms` and putting it in the folder where you want
 Nacms to function, but it can be in any public folder.
 
 Rename the htaccess file to `.htaccess` and copy it to the folder where you want
-the Nacms function. It will apply to that folder and all subfolders.
+the Nacms function. It will apply to that folder and all subfolders. Edit the file to change the path to the `.nacms` folder.
 
 Note: Comment out with a hash symbol `#` for any options you don't want.
 
 This seems to work with a basic Apache server on a shared hosting server.
 
-Now any `.md` markdown file will render as proper HTML.
+Now any `.md` markdown file will render as proper HTML. Edit
+`folder-handler.php` and uncomment a theme if you would like to use it.
 
 ### Additional install info
 

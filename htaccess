@@ -1,4 +1,5 @@
 # Nacms: Convert markdown (or text) to HTML for user
+# Path is from the root public folder.
 Action markdown /nacms/.nacms/markdown-handler.php
 AddHandler markdown .md
 
@@ -20,5 +21,6 @@ AddHandler markdown .text
 #
 # If the script is somewhere other than the folder `.nacms` in the same folders
 # as this file, edit the path to match.
+# Path is from the root public folder.
 
 DirectoryIndex first.html index.htm index.html index.php index.md /nacms/.nacms/folder-handler.php
