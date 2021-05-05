@@ -9,3 +9,7 @@ p {
 
     line-height: 150%;
 }
+
+img {
+    max-width: 100%;
+}
