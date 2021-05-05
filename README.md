@@ -14,6 +14,8 @@ several concepts and code segments from that project.
 
 It also uses Parsedown to generate the HTML.
 
+View demo at https://demo.partialsolution.ca/nacms/
+
 ![Screenshots](screenshots.png)
 
 ## Uses
