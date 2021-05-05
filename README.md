@@ -47,11 +47,11 @@ Unlike other folder listing scripts, this is not designed to highlight filetypes
 
 I wanted to store some fun documents that I wrote or that are from history in to a personal archieve. The most portal document format in the world is a plain text file. But those don't look nice and can lose important formatting. HTML is the next most portal file format. The problem with HTML is that the styles used in it are locked in. Also, viewing raw HTML can be challenging for novice users and editing text in such a document increases one's cognitive load and make grammer mistakes easy to miss.
 
-For these reason I've come to like Markdown. Markdown can be easily process in to any richtext document like HTML, but is easy to read in it's raw form. Where more complex stuff is required, HTML is valid. But unlike an HTML document, it doesn't need to be a completely HTML file with `<html>`, `<title>`, and `<body>` elements.
+For these reason I've come to like markdown. markdown can be easily process in to any richtext document like HTML, but is easy to read in it's raw form. Where more complex stuff is required, HTML is valid. But unlike an HTML document, it doesn't need to be a completely HTML file with `<html>`, `<title>`, and `<body>` elements.
 
-In sum, Markdown is a plain text file that can be understood by novice users but can be parsed as rich text and quickly shown as HTML that looks nice when basic CSS is applied to it. So in a decade you can still open the files or run it through a different processes and not have to reformat them as an HTML files or strip out HTML to feed it in to another format. Including converting it to rich text first using any of the online tools that do just that.
+In sum, markdown is a plain text file that can be understood by novice users but can be parsed as rich text and quickly shown as HTML that looks nice when basic CSS is applied to it. So in a decade you can still open the files or run it through a different processes and not have to reformat them as an HTML files or strip out HTML to feed it in to another format. Including converting it to rich text first using any of the online tools that do just that.
 
-One drawback is that there are several Markdown formats and so if you do something really stra
+One drawback is that there are several markdown formats and so if you do something really stra
 
 ## Installation
 
@@ -81,10 +81,10 @@ Now any `.md` markdown file will render as proper HTML. Edit
 
 ## TODO
 
-* Consider other Markdown parsers
+* Consider other markdown parsers
     * Footnotes, anchor links, etc.
 * Add option for the viewer (markdown handler) to show a header or footer that bring you back to the index.
 * Add some way of listing file descriptions, like an file_id.diz or .nfo
 * Meta data for files so the viewer can be smarter, or is that going too far?
-* Make a way to download raw Markdown files?
+* Make a way to download raw markdown files?
 * Make options in folder view, like files sizes?
