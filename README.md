@@ -1,11 +1,11 @@
 # Nacms
 
-Nocms is what I call the two scripts that are a way of navigating portable files without using any sort of CMS or writing HTML files to link them together. It can be used for a public of client facing directory list. Nocms has two parts:
+Nacms is what I call the two scripts that are a way of navigating portable files without using any sort of CMS or writing HTML files to link them together. It can be used for a public of client facing folder list. Nacms has two parts:
 
 1. **The index replacement** is a script that displays the contents of a folder that do not have any index files and allow indexes to be shown. It's very simple but effective.
 2. **The markdown viewer** is a script that displays the contents of a markdown file in a robust and (I hope) mobile responsive way. This way raw markdown file can sit next to HTML files and other content such as zip archieves.
 
-By editing the .htaccess file of any folder, including the root subdomain folder or root domain folder, you will be able to navigate all sub folders in a straight forward way. However, it will be slightly prettier than the default directory list and will not show the file sizes. (I could add file sizes as an option, I suppose. I just didn't want it for my archive viewing purpose of Nocms.)
+By editing the .htaccess file of any folder, including the root subdomain folder or root domain folder, you will be able to navigate all sub folders in a straight forward way. However, it will be slightly prettier than the default folder list and will not show the file sizes. (I could add file sizes as an option, I suppose. I just didn't want it for my archive viewing purpose of Nacms.)
 
 When I got the idea to use file handlers in the `.htaccess` and to combine that
 with a folder listing I found Sam Minnée's
@@ -13,8 +13,6 @@ with a folder listing I found Sam Minnée's
 several concepts and code segments from that project.
 
 It also uses Parsedown to generate the HTML.
-
-View demo at https://demo.partialsolution.ca/nacms/
 
 ![Screenshots](screenshots.png)
 
@@ -28,11 +26,11 @@ View demo at https://demo.partialsolution.ca/nacms/
     * HTML files (which load like normal)
     * Image files (which load like normal)
 
-Unlike other directory listing scripts, this is not designed to highlight filetypes and files sizes.
+Unlike other folder listing scripts, this is not designed to highlight filetypes and files sizes.
 
 ## Features
 
-* Shows directory listings
+* Shows folder listings
     * Is clean and simple
     * Doesn't show dates of file sizes
     * Uses the clean but techie looking Fire Code font for file names
