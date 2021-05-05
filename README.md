@@ -14,6 +14,8 @@ several concepts and code segments from that project.
 
 It also uses Parsedown to generate the HTML.
 
+![Screenshots](screenshots.png)
+
 ## Uses
 
 * To navigate folders on a public or clients facing website
@@ -33,7 +35,7 @@ Unlike other directory listing scripts, this is not designed to highlight filety
     * Doesn't show dates of file sizes
     * Uses the clean but techie looking Fire Code font for file names
     * Works with spaces in folder names
-    * A few mediocre themes you can choose from
+    * A few mediocre themes you can choose from, 2 of them are animated.
 * Shows text and markdown files in a clean, readable way
     * Outputs as HTML
     * Uses an ideal reading width of 50-70 characters per line
@@ -66,7 +68,7 @@ Note: Comment out with a hash symbol `#` for any options you don't want.
 This seems to work with a basic Apache server on a shared hosting server.
 
 Now any `.md` markdown file will render as proper HTML. Edit
-`folder-handler.php` and uncomment a theme if you would like to use it.
+`folder-handler.php` and uncomment a theme if you would like to use it. Rainbow and Cyberpunk are animated if you like things being over the top or garish.
 
 ### Additional install info
 
