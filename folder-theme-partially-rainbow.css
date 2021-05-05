@@ -1,0 +1,41 @@
+body {
+    background: rgb(209,0,0);
+    background: -moz-linear-gradient(90deg, rgba(209,0,0,1) 0%, rgba(255,102,34,1) 20%, rgba(255,218,33,1) 40%, rgba(51,221,0,1) 60%, rgba(17,51,204,1) 80%, rgba(34,0,102,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(209,0,0,1) 0%, rgba(255,102,34,1) 20%, rgba(255,218,33,1) 40%, rgba(51,221,0,1) 60%, rgba(17,51,204,1) 80%, rgba(34,0,102,1) 100%);
+    background: linear-gradient(90deg, rgba(209,0,0,1) 0%, rgba(255,102,34,1) 20%, rgba(255,218,33,1) 40%, rgba(51,221,0,1) 60%, rgba(17,51,204,1) 80%, rgba(34,0,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d10000",endColorstr="#220066",GradientType=1); 
+
+   /* Gradient animation */
+    background: linear-gradient(90deg, rgba(209,0,0,1), rgba(255,102,34,1), rgba(255,218,33,1), rgba(51,221,0,1), rgba(17,51,204,1), rgba(34,0,102,1));
+    background-size: 300% 300%;
+    animation: gradient 10s ease-in-out infinite;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.folder, .up {
+    background: rgba(255,255,255,.2);
+}
+
+.file {
+    background: rgba(255,255,255,.5);
+}
+
+a, a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #444
+}

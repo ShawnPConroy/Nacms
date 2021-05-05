@@ -1,0 +1,15 @@
+.folder, .up {
+    background-color: #475B9C;
+}
+
+.file {
+    background-color: #5D74C1;
+}
+
+a, a:link {
+    color: #151D37;
+}
+
+a:visited {
+    color: #253159
+}

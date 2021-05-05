@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    color: black;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+h1 {
+    text-shadow: .1rem .1rem .3rem white;
+}
+
+.folder, .up {
+    background: rgba(255,255,255,.3);
+}
+
+.file {
+    background: rgba(255,255,255,.5);
+}
+
+a, a:link {
+    color: black;
+}
+
+a:visited {
+    color: #444;
+}

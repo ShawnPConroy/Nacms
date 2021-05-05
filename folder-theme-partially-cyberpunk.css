@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: #000;
+    background-image: url('https://media.giphy.com/media/3oKIPbabJ7lMibF0CA/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-shadow: .1rem .1rem .3rem black;
+    text-align: center;
+}
+
+.folder, .up {
+    background: rgba(0,0,0,.6);
+}
+
+.file {
+    background: rgba(0,0,0,.7);
+}
+
+a, a:link {
+    color: white;
+}
+
+a:visited {
+    color: #aaa;
+}

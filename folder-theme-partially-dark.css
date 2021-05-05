@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.folder, .up {
+    background: rgba(255,255,255,.2);
+}
+
+.file {
+    background: rgba(255,255,255,.3);
+}
+
+a, a:link {
+    color: white;
+}
+
+a:visited {
+    color: #aaa;
+}

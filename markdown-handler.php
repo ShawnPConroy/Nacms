@@ -26,7 +26,7 @@ if ($filePath && $legalExtension && $legalFolder) {
 	<title><?php echo $fileInfo['filename']; ?></title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo str_replace(basename(__FILE__), 'style.css', $_SERVER['SCRIPT_NAME']); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo str_replace(basename(__FILE__), 'markdown-default.css', $_SERVER['SCRIPT_NAME']); ?>">
 </head>
 <body>
 <?php echo $content;?>
