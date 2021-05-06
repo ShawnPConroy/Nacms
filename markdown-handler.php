@@ -2,7 +2,7 @@
 
 $scriptDir = dirname(__FILE__);
 require_once($scriptDir.'/nacms-lib.php');
-require_once($scriptDir.'/Parsedown.php');
+require_once($scriptDir.'/parsedown/Parsedown.php');
 $pd = new Parsedown();
 
 /* Confirm request is legal: in a public folder and a markdown file */
