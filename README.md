@@ -32,7 +32,10 @@ Unlike other folder listing scripts, this is not designed to highlight filetypes
 
 * Shows folder listings
     * Is clean and simple
+    * Shows folder name as title
     * Doesn't show dates of file sizes
+    * Doesn't list folder or files prefixed with a period (.)
+    * Doesn't list common webserver files or folders
     * Uses the clean but techie looking Fire Code font for file names
     * Works with spaces in folder names
     * A few mediocre themes you can choose from, 2 of them are animated.
