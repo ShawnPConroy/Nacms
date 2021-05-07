@@ -77,7 +77,7 @@ function showItem($uri, $text, $class)
     echo "    <li class=\"$class\"><a href=\"{$uri}\">{$text}</a></li>\n";
 }
 foreach ($folders as $folder) {
-    if (!in_array($folder, $skipFiles)) {
+    if (!in_array($folder, $skipFolders)) {
         showItem($folder.'/', $folder, 'folder');
     }
 }
