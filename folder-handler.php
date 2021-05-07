@@ -67,8 +67,11 @@ if ($folderPath && $legalFolder) {
 <body>
 <h1><?php echo $folderName; ?></h1>
 <ul>
-    <li class="up"><a href="..">Go up one level</a></li>
 <?php
+if ($_SERVER['REQUEST_URI'] != "/") {
+    echo '    <li class="up"><a href="..">Go up one level</a></li>';
+}
+
 function showItem($uri, $text, $class)
 {
     echo "    <li class=\"$class\"><a href=\"{$uri}\">{$text}</a></li>\n";
